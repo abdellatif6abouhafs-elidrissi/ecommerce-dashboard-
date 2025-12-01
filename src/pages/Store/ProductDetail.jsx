@@ -35,6 +35,7 @@ const ProductDetail = () => {
       'https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop',
       'https://images.unsplash.com/photo-1545127398-14699f92334b?w=600&h=600&fit=crop',
     ],
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop', // Main image for cart
   };
 
   const handleAddToCart = () => {

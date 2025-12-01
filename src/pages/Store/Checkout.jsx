@@ -210,7 +210,14 @@ const Checkout = () => {
                 <div className="space-y-4 mb-6 max-h-64 overflow-y-auto">
                   {cartItems.map((item) => (
                     <div key={item.id} className="flex gap-4">
-                      <img src={item.image} alt={item.name} className="w-16 h-16 rounded object-cover" />
+                      <img
+                        src={item.image || 'https://placehold.co/100x100/e5e7eb/6b7280?text=Product'}
+                        alt={item.name}
+                        className="w-16 h-16 rounded object-cover bg-gray-100"
+                        onError={(e) => {
+                          e.target.src = 'https://placehold.co/100x100/e5e7eb/6b7280?text=Product';
+                        }}
+                      />
                       <div className="flex-1">
                         <p className="font-semibold text-sm">{item.name}</p>
                         <p className="text-sm text-gray-600">Qty: {item.quantity}</p>
