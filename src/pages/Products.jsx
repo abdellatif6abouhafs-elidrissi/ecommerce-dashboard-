@@ -10,7 +10,7 @@ const Products = () => {
       price: 79.99,
       stock: 45,
       status: 'In Stock',
-      image: 'https://via.placeholder.com/50',
+      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=100&h=100&fit=crop',
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Products = () => {
       price: 199.99,
       stock: 23,
       status: 'In Stock',
-      image: 'https://via.placeholder.com/50',
+      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=100&h=100&fit=crop',
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const Products = () => {
       price: 89.99,
       stock: 0,
       status: 'Out of Stock',
-      image: 'https://via.placeholder.com/50',
+      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=100&h=100&fit=crop',
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const Products = () => {
       price: 49.99,
       stock: 67,
       status: 'In Stock',
-      image: 'https://via.placeholder.com/50',
+      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=100&h=100&fit=crop',
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ const Products = () => {
       price: 129.99,
       stock: 12,
       status: 'Low Stock',
-      image: 'https://via.placeholder.com/50',
+      image: 'https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=100&h=100&fit=crop',
     },
   ]);
 
